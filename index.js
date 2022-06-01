@@ -1,7 +1,9 @@
 let num1 = 8
 let num2 = 2
-document.getElementById("num1-el").taxtContent = num1
-document.getElementById("num2-el").taxtContent = num2
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
+
+
 
 let sum = document.getElementById("sum-el")
 
@@ -17,6 +19,6 @@ function divide(){
     sum.textContent += num1 / num2;
 }
 
-function mutiply(){
+function multiply(){
     sum.textContent += num1 * num2;
 }
